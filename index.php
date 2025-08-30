@@ -20,22 +20,53 @@ require_once('functions.php')
     </div>
     <hr>
     <div class="row">
-      <?php foreach ($dischi as $disco): ?>
-        <div class="col-12 col-md-6 col-lg-3 d-flex">
-          <div class="card m-3 flex-fill">
-            <img src="<?= $disco['cover'] ?>" class="card-img-top" alt="<?= $disco['titolo'] ?>">
-            <div class="card-body">
-              <h5 class="card-title"><?= $disco['titolo'] ?></h5>
-              <p class="card-text">
-                Artista: <?= $disco['artista'] ?><br>
-                Anno: <?= $disco['anno'] ?><br>
-                Genere: <?= $disco['genere'] ?>
-              </p>
+      <div class="col-4">
+        <div class="bg-secondary p-3">
+          <h4>Aggiungi un nuovo disco</h4>
+          <form action="./aggiungi.php" method="POST">
+            <div class="mb-3">
+              <label for="titolo" class="form-label">Titolo</label>
+              <input type="text" class="form-control" id="titolo" name="titolo">
             </div>
-          </div>
+            <div class="mb-3">
+              <label for="anno" class="form-label">Anno</label>
+              <input type="number" class="form-control" id="anno" name="anno">
+            </div>
+            <div class="mb-3">
+              <label for="urlImage" class="form-label">URL Image</label>
+              <input type="text" class="form-control" id="urlImage" name="urlImage">
+            </div>
+            <div class="mb-3">
+              <label for="genere" class="form-label">Genere</label>
+              <input type="text" class="form-control" id="genere" name="genere">
+            </div>
+            <button type="submit" class="btn btn-primary">Aggiungi</button>
+          </form>
+
         </div>
-      <?php endforeach; ?>
+      </div>
+
+      <div class="col-8">
+        <div class="row">
+          <?php foreach ($dischi as $disco): ?>
+            <div class="col-12 col-md-6 col-lg-4 d-flex">
+              <div class="card m-3 flex-fill">
+                <img src="<?= $disco['cover'] ?>" class="card-img-top" alt="<?= $disco['titolo'] ?>">
+                <div class="card-body">
+                  <h5 class="card-title"><?= $disco['titolo'] ?></h5>
+                  <p class="card-text">
+                    Artista: <?= $disco['artista'] ?><br>
+                    Anno: <?= $disco['anno'] ?><br>
+                    Genere: <?= $disco['genere'] ?>
+                  </p>
+                </div>
+              </div>
+            </div>
+          <?php endforeach; ?>
+        </div>
+      </div>
     </div>
+
   </div>
 
 </body>
