@@ -1,0 +1,58 @@
+[
+    {
+        "titolo": "Strade di città",
+        "artista": "Articolo 31",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2731c6ecee465cc407bfac0c2df",
+        "anno": 1993,
+        "genere": "Hip hop"
+    },
+    {
+        "titolo": "Messa di Vespiri",
+        "artista": "Articolo 31",
+        "cover": "https://m.media-amazon.com/images/I/91GiqDSMEdL._UF1000,1000_QL80_.jpg",
+        "anno": 1994,
+        "genere": "Hip hop"
+    },
+    {
+        "titolo": "Così com'è",
+        "artista": "Articolo 31",
+        "cover": "https://m.media-amazon.com/images/I/41abpf0vE9L._UF1000,1000_QL80_.jpg",
+        "anno": 1996,
+        "genere": "Hip hop, pop rap"
+    },
+    {
+        "titolo": "Nessuno",
+        "artista": "Articolo 31",
+        "cover": "https://m.media-amazon.com/images/I/91Ygyk0twRL._UF350,350_QL50_.jpg",
+        "anno": 1998,
+        "genere": "Hip hop, rap rock"
+    },
+    {
+        "titolo": "Xché sì!",
+        "artista": "Articolo 31",
+        "cover": "https://i.scdn.co/image/ab67616d0000b2737f31ad83aaad5697573e1edb",
+        "anno": 1999,
+        "genere": "Hip hop, pop rap"
+    },
+    {
+        "titolo": "Domani smetto",
+        "artista": "Articolo 31",
+        "cover": "https://rockitecn.nohup.it/thumb333x333/copertine/16614/domani-smetto.jpg",
+        "anno": 2002,
+        "genere": "Hip hop, pop rap"
+    },
+    {
+        "titolo": "Italiano medio",
+        "artista": "Articolo 31",
+        "cover": "https://m.media-amazon.com/images/I/81Ou6J3mqBL._UF1000,1000_QL80_.jpg",
+        "anno": 2003,
+        "genere": "Hip hop, pop rap"
+    },
+    {
+        "titolo": "La riconquista del forum (live)",
+        "artista": "Articolo 31",
+        "cover": "https://m.media-amazon.com/images/I/51zWhu+Rh7L._UF1000,1000_QL80_.jpg",
+        "anno": 2004,
+        "genere": "Hip hop, live"
+    }
+]
